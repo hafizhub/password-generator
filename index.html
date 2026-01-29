@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Password Generator</title>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Password Generator</h1>
+    <p class="subtitle">Create strong & secure passwords instantly 🔐</p>
+
+    <form class="form" id="form">
+        <input type="number" id="length" placeholder="Length (8–32)" min="8" max="32" required>
+        <button class="generate">Generate</button>
+    </form>
+
+    <div class="output" id="output">Your password will appear here</div>
+
+    <div class="actions">
+        <button class="action-btn copy" id="copy">Copy</button>
+        <button class="action-btn regen" id="regen">Regenerate</button>
+    </div>
+
+    <p class="footer">Designed for modern web security</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
